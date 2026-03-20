@@ -162,7 +162,7 @@ int main(int argc, const char **argv)
 {
     if (argc < 2)
     {
-        ChannelFactory::Instance()->Init(1, "lo");
+        ChannelFactory::Instance()->Init(0, "lo");
     }
     else
     {
